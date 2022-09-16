@@ -1,0 +1,60 @@
+
+
+main{
+    background-color: rgb(127, 229, 255);
+}
+
+.casa{
+    border: 3px solid whitesmoke;
+    width: 150px;
+    height: 150px;
+    font-size: 80px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 150px;
+    box-shadow: 5px 5px 5px whitesmoke;
+    text-shadow: 5px 5px 5px black;
+}
+.linha{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(127, 229, 255);
+}
+.Titulo{
+    align-items: center;
+    font-size: 90px;
+    color: whitesmoke;
+    text-shadow: 3px 3px 5px black;
+}
+.placar{
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+}
+p{
+    border: 3px solid whitesmoke;
+    box-shadow: 5px 5px 5px black;
+}
+.botao{
+   align-items: center;
+   border: 3px solid whitesmoke;
+   text-align: center;
+   color: whitesmoke;
+   text-shadow: 1px 1px 1px black;
+   box-shadow: 5px 5px 5px whitesmoke;
+   font-size: 25px;
+}
+.botao:hover{
+    background-color: rgb(172, 238, 255);
+}
+.casa:hover{
+    background-color: rgb(172, 238, 255);
+    box-shadow: 5px 5px 5px;
+}
